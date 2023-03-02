@@ -1,0 +1,26 @@
+* {box-sizing: border-box; 
+    padding: 0; 
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.myDiv{
+    width: 100vw;
+    height: 50vh;   
+    background-color: grey;
+}
+
+.paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+}
+
+.lema{
+    position:absolute;
+    top: 1000px;
+    left: 1500px;
+    color: red;
+    font-size: 100px;
+}
