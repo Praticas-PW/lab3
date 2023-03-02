@@ -25,10 +25,25 @@
     font-size: 100px;
 }
 
-.transparent_div{
-    position:absolute;
-    width: 400px;
-    height: 400px;
-    background-color: black;
-    background: transparent;
+
+
+.cities{
+    width: 100vw;
+    height: 40vh;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: space-around;
+    display: flex;
+    background-color: lightblue;
+    padding: 50px;
+}
+
+.cities > div{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #888888;
+}.cities > img{
+    border-radius: 20px 0 0 20px;
+    height: 100%;
 }
