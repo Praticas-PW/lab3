@@ -7,7 +7,7 @@
 .myDiv{
     width: 100vw;
     height: 50vh;   
-    background-color: grey;
+    background-color: lightblue;
 }
 
 .paragraph{
@@ -17,10 +17,18 @@
     font-size: 200px;
 }
 
-.lema{
+.phrase{
     position:absolute;
-    top: 1000px;
-    left: 1500px;
-    color: red;
+    top: 600px;
+    left: 300px;
+    color: blue;
     font-size: 100px;
+}
+
+.transparent_div{
+    position:absolute;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    background: transparent;
 }
