@@ -14,14 +14,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 200px;
+    font-size: 1000%;
 }
 
 .phrase{
     position:absolute;
     top: 600px;
-    left: 300px;
-    color: blue;
+    left: 200px;
+    color: lightblue;
     font-size: 100px;
 }
 
@@ -35,15 +35,28 @@
     align-items: space-around;
     display: flex;
     background-color: lightblue;
-    padding: 50px;
+    padding: 5%;
 }
 
 .cities > div{
     display: flex;
     justify-content: space-around;
-    border-radius: 20px;
-    box-shadow: 5px 5px 15px #888888;
-}.cities > img{
-    border-radius: 20px 0 0 20px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px #888;
+}
+
+
+.cities > img{
+    border-radius: 10% 10% 10% 10%;
     height: 100%;
+}
+
+.cityTitle{
+    text-align: center;
+}
+
+.circle{
+    width: 100vw;
+    height: 50vh;   
+    background-color: lightblue;  
 }
