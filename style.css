@@ -55,8 +55,21 @@
     text-align: center;
 }
 
-.circle{
+.circleDiv{
     width: 100vw;
-    height: 50vh;   
-    background-color: lightblue;  
+    height: 40vh;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: space-around;
+    display: flex;
+    background-color: lightblue;
+    padding: 5%;  
 }
+
+.circleDiv > div{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    box-shadow: 5px 0px 15px #888;
+}
+
