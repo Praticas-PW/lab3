@@ -30,27 +30,29 @@
 
 
 .cities{
-    width: 100vw;
-    height: 40vh;
+
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: space-around;
     display: flex;
+    row-gap: 15px;
     background-color: lightskyblue;
     padding: 5%;
 }
 
 .cities > div{
-    display: flex;
-    justify-content: space-around;
-    border-radius: 30px;
+    width: 132px;
+    height: 122px;
+    display: block;
+    border-radius: 15px;
     box-shadow: 5px 5px 15px #888;
+    text-align: center;
 }
 
 
 .cities > img{
-    border-radius: 10% 10% 10% 10%;
-    height: 100%;
+    display: block;
+    box-sizing: border-box;
 }
 
 .cityTitle{
@@ -74,7 +76,7 @@
     padding: 5%;  
 }
 
-.circleDiv > div{
+.circleContainer > div{
     width: 100px;
     height: 100px;
     background: #888;
@@ -83,7 +85,7 @@
     border-radius: 50px;
 }
 
-.circles > img{
+.circles img{
     border-radius: 10% 10% 10% 10%;
     height: 100%;
 }
