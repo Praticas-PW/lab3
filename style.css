@@ -55,9 +55,15 @@
     text-align: center;
 }
 
+
+
+
+
+
+
 .circleDiv{
     width: 100vw;
-    height: 40vh;
+    height: 30 vh;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: space-around;
@@ -67,9 +73,29 @@
 }
 
 .circleDiv > div{
-    display: flex;
-    justify-content: space-around;
-    border-radius: 20px;
-    box-shadow: 5px 0px 15px #888;
+    width: 100px;
+    height: 100px;
+    background: #888;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+
+
+.hdr{
+    background-color: yellow;
+    top: 0%;
+    position: fixed;
+    width: 100%;
+    height: 5vh; 
+
+}
+
+
+.navBar{  
+  display:flex;
+  justify-content: space-between;  
+  align-items: center;
 }
 
