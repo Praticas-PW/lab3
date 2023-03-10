@@ -4,25 +4,27 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.myDiv{
+
+
+.citiesContainer{
     width: 100vw;
     height: 50vh;   
-    background-color: lightblue;
-}
-
-.paragraph{
+    background-color: lightskyblue;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1000%;
+    
 }
 
+
 .phrase{
+    display: flex;
     position:absolute;
-    top: 600px;
-    left: 200px;
-    color: lightblue;
-    font-size: 100px;
+    top: 900px;
+    left: 1500px;
+    color: lightskyblue;
+    font-size: 50px;
 }
 
 
@@ -34,7 +36,7 @@
     justify-content: space-around;
     align-items: space-around;
     display: flex;
-    background-color: lightblue;
+    background-color: lightskyblue;
     padding: 5%;
 }
 
@@ -58,10 +60,10 @@
 
 
 
+/*  circles stuff*/
 
 
-
-.circleDiv{
+.circleContainer{
     width: 100vw;
     height: 30 vh;
     flex-flow: row wrap;
@@ -81,10 +83,20 @@
     border-radius: 50px;
 }
 
+.circles > img{
+    border-radius: 10% 10% 10% 10%;
+    height: 100%;
+}
 
+
+
+
+
+
+/*      Header stuff*/
 
 .hdr{
-    background-color: yellow;
+    background-color : lightslategray;
     top: 0%;
     position: fixed;
     width: 100%;
@@ -95,7 +107,9 @@
 
 .navBar{  
   display:flex;
-  justify-content: space-between;  
-  align-items: center;
+}
+
+.navBar a:last-child{
+    margin-left: auto;
 }
 
